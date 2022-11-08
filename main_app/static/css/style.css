@@ -1,0 +1,56 @@
+html,
+a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: expanded;
+}
+.black-text {
+  font-size: 20px;
+}
+.black-text left brand-logo {
+  position: relative;
+  text-decoration: 2px underline;
+}
+
+nav ul a:hover {
+  color: black;
+  text-decoration: 2px underline;
+  background-color: none;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  color: black;
+}
+main {
+  flex: 1 0 auto;
+  color: black;
+}
+footer.page-footer {
+  padding-top: 0;
+  text-align: right;
+  background-color: white;
+  color: black;
+}
+.nav-wrapper {
+  color: black;
+  background-color: white;
+}
+.black-text.left.brand-logo {
+  left: 20px;
+}
+.card-content {
+  border: 4px black solid;
+  max-width: 500px;
+}
+.card-title {
+  /* text-decoration: 2px underline; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+nav {
+  position: relative;
+  top: 10px;
+  justify-items: baseline;
+}
